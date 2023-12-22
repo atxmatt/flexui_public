@@ -15,7 +15,7 @@ export enum StringTemplates {
 
 export const stringHook = () => ({
   'en-US': {
-    [StringTemplates.SelectAudioDevice]: 'Select an audio device',
+    [StringTemplates.SelectAudioDevice]: 'Select a big audio device',
     [StringTemplates.SetDeviceSuccess]: 'Set {{selectedDevice}} as your audio device.',
     [StringTemplates.SetDeviceError]: 'There was an error attempting to set {{selectedDevice}} as your audio device.',
     [StringTemplates.SelectOutputDevice]: 'Select an output device',
